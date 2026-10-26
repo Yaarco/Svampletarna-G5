@@ -1,5 +1,5 @@
 /* Lägger en mörk toning över bakgrundsbilden i headerns div så att texten ska synas tydligare */
-header>div {
+.hero {
     background-image: linear-gradient(90deg, rgb(0 0 0 / 0.6) 100%, transparent), url("../img/alla-svampar-bakgrund.jpg");
 }
 

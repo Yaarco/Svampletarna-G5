@@ -128,7 +128,7 @@ function createFeatureList(features) {
         const listItem = document.createElement("li");
         listItem.textContent = feature;
 
-        listItem.appendChild(listItem);
+        featureList.appendChild(listItem);
     });
 
     return featureList;
